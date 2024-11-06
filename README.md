@@ -15,6 +15,7 @@ The purpose of this repository is to document and store the projects, examples, 
 Clone this repository and open it in your browser to see how different components and layouts look in action:
 ```bash
 git clone https://github.com/Dev-Aaminah/Bootstrap.git
+```
 
 ## Learning Progress
 This repository will be regularly updated with new projects, examples, and concepts as I progress in my journey to mastering Bootstrap. The updates will cover various Bootstrap components, grid systems, custom themes, and responsive design practices. I aim to build a strong foundation in using Bootstrap for creating modern and user-friendly web layouts.
