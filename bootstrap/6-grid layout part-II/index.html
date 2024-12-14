@@ -22,50 +22,54 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-xxl">
-        <a href="#intro" class="navbar-brand">
-          <i class="bi bi-book-half"></i>
-          <span class="fw-bold text-secondary"> Arabic book - the store </span>
-        </a>
-        <!-- toggle button for mobile view -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#main-nav"
-          aria-controls="main-nav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+          <a href="#intro" class="navbar-brand">
+            <i class="bi bi-book-half"></i>
+            <span class="fw-bold text-secondary">
+              Arabic book - the store
+            </span>
+          </a>
+          <!-- toggle button for mobile view -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main-nav"
+            aria-controls="main-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <!-- Navbar links -->
-        <div
-          class="collapse navbar-collapse justify-content-end align-center"
-          id="main-nav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#topics">About the book</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reviews">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Get in touch</a>
-            </li>
-            <li class="nav-item d-md-none">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item d-md-inline ms-2 d-none">
-              <a class="btn btn-secondary" href="#pricing">Buy Now</a>
-            </li>
-          </ul>
+          <!-- Navbar links -->
+          <div
+            class="collapse navbar-collapse justify-content-end align-center"
+            id="main-nav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#topics">About the book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Get in touch</a>
+              </li>
+              <li class="nav-item d-md-none">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item d-md-inline ms-2 d-none">
+                <a class="btn btn-secondary" href="#pricing">Buy Now</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <!-- Main Page & Intro Text -->
     <section id="intro">
@@ -77,11 +81,19 @@
               <div class="display-5 text-muted">Arabic Skills</div>
             </h1>
             <p class="lead my-4 text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, rem.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              rem.
             </p>
             <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
             <!-- open sidebar / offcanvas -->
-             <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">Explore other books</a>
+            <a
+              href="#sidebar"
+              class="d-block mt-3"
+              data-bs-toggle="offcanvas"
+              role="button"
+              aria-controls="sidebar"
+              >Explore other books</a
+            >
           </div>
 
           <div class="col-md-5 text-center d-none d-md-block">
@@ -411,26 +423,58 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
-            <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et alias blanditiis possimus. Consequuntur beatae, delectus assumenda consequatur temporibus perspiciatis vitae!</p>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Register for updates</button>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et alias
+              blanditiis possimus. Consequuntur beatae, delectus assumenda
+              consequatur temporibus perspiciatis vitae!
+            </p>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#reg-modal"
+            >
+              Register for updates
+            </button>
           </div>
         </div>
       </div>
     </section>
 
     <!-- modal itself -->
-    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div
+      class="modal fade"
+      id="reg-modal"
+      tabindex="-1"
+      aria-labelledby="modal-title"
+      aria-hidden="true"
+    >
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="modal-title">Get the latest updates</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
 
           <div class="modal-body">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto eveniet aspernatur accusantium eligendi reiciendis saepe, aut quam distinctio culpa earum.</p>
-            <label for="modal-email" class="form-label">Your Email Address:</label>
-            <input type="email" class="form-control" id="modal-email" placeholder="e.g. abc@gmail.com">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
+              eveniet aspernatur accusantium eligendi reiciendis saepe, aut quam
+              distinctio culpa earum.
+            </p>
+            <label for="modal-email" class="form-label"
+              >Your Email Address:</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="modal-email"
+              placeholder="e.g. abc@gmail.com"
+            />
           </div>
 
           <div class="modal-footer">
@@ -441,22 +485,44 @@
     </div>
 
     <!-- offcanvas -->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="sidebar"
+      aria-labelledby="sidebar-label"
+    >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="sidebar-label">My other books</h5>
-        <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button
+          class="btn-close"
+          type="button"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
 
       <div class="offcanvas-body">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat laboriosam vel ullam voluptatem, eos voluptate recusandae quos doloribus perspiciatis aut rerum enim inventore deserunt necessitatibus. Distinctio quas illo maxime.</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
+          laboriosam vel ullam voluptatem, eos voluptate recusandae quos
+          doloribus perspiciatis aut rerum enim inventore deserunt
+          necessitatibus. Distinctio quas illo maxime.
+        </p>
 
         <!-- dropdown -->
         <div class="dropdown mt-3">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="book-dropdown"
+            data-bs-toggle="dropdown"
+          >
             Choose a book title
           </button>
           <ul class="dropdown-menu" aria-labelledby="book-dropdown">
-            <li><a href="#" class="dropdown-item">Become a Arabic Superhero</a></li>
+            <li>
+              <a href="#" class="dropdown-item">Become a Arabic Superhero</a>
+            </li>
             <li><a href="#" class="dropdown-item">Conquering Arabic</a></li>
             <li><a href="#" class="dropdown-item">Levelling up Arabic</a></li>
           </ul>
